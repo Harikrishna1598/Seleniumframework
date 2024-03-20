@@ -1,0 +1,15 @@
+[
+{
+"emailid":"standard_user",
+"password":"secret_sauce",
+"product":"Sauce Labs Backpack"
+},
+
+
+{
+"emailid":"performance_glitch_user",
+"password":"secret_sauce",
+"product":"Sauce Labs Backpack"
+}
+
+]

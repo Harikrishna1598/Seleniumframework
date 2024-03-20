@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T20:18:40 GMT-08:00" name="Suite" finished-at="2024-03-09T20:18:58 GMT-08:00" duration-ms="18230">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T20:18:40 GMT-08:00" name="test" finished-at="2024-03-09T20:18:58 GMT-08:00" duration-ms="18230">
+      <class name="ProjectTesting.Seleniumframework.Standalonetest">
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ProjectTesting.Seleniumframework.Standalonetest@1fb669c3]" started-at="2024-03-09T20:18:41 GMT-08:00" name="SubmitOrder" data-provider="getData" finished-at="2024-03-09T20:18:48 GMT-08:00" duration-ms="7169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, product=Sauce Labs Backpack, emailid=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:ProjectTesting.Seleniumframework.Standalonetest@1fb669c3]" started-at="2024-03-09T20:18:48 GMT-08:00" name="SubmitOrder" data-provider="getData" finished-at="2024-03-09T20:18:58 GMT-08:00" duration-ms="10516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, product=Sauce Labs Backpack, emailid=performance_glitch_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+      </class> <!-- ProjectTesting.Seleniumframework.Standalonetest -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
